@@ -1,3 +1,7 @@
  To increase the buffer Size in Powershell run following command. 
  
  $host.UI.RawUI.BufferSize = New-Object System.Management.Automation.Host.Size(200,3000)
+
+# Import ISE 
+Import-Module ServerManager 
+Add-WindowsFeature PowerShell-ISE
